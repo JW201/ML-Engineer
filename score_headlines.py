@@ -6,7 +6,7 @@ from sentence_transformers import SentenceTransformer
 
 # Constants
 MODEL_PATH = "/opt/huggingface_models/all-MiniLM-L6-v2"
-SVM_MODEL_FILE = "svm.joblib"
+SVM_MODEL_FILE = "svm.pkl"
 
 def parse_arguments():
     """Parse and validate command-line arguments."""
